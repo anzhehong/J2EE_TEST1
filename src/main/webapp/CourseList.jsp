@@ -135,6 +135,7 @@
     <th>Students</th>
   </tr>
   </thead>
+
   <tbody>
     <c:forEach items="${taughtCourses}" var="taughtCourses">
       <c:forEach items="${courses}" var="courses">
