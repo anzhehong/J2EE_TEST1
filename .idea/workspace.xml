@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9c1b46e-4da1-403f-ae2a-3288be6ced2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entity/Courses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/entity/Courses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DAO/CoursesDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/DAO/CoursesDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DBUtil/DBUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/DBUtil/DBUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/action/ShowCourses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/action/ShowCourses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/action/ShowDetails.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/action/ShowDetails.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entity/TaughtCourses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/entity/TaughtCourses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DAO/TaughtCoursesDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/DAO/TaughtCoursesDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/entity/Teachers.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/entity/Teachers.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/DAO/TeachersDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/classes/DAO/TeachersDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/lib/mysql-connector-java-5.1.31.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/lib/standard-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1.war" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/Course.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/CourseList.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/Teacher.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test1/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d9c1b46e-4da1-403f-ae2a-3288be6ced2d" name="Default" comment="" />
     <ignored path="J2EEtest1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -209,8 +173,8 @@
       <file leaf-file-name="CourseList.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/CourseList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7929515">
-              <caret line="156" column="47" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.26431718">
+              <caret line="140" column="54" selection-start-line="140" selection-start-column="54" selection-end-line="140" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -824,7 +788,7 @@
       <workItem from="1430239218484" duration="3010000" />
       <workItem from="1430272713164" duration="12000" />
       <workItem from="1430272739389" duration="9112000" />
-      <workItem from="1430287649421" duration="1970000" />
+      <workItem from="1430287649421" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1430289109713</created>
@@ -848,11 +812,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36631000" />
+    <option name="totallyTimeSpent" value="37003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -872,7 +836,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18526466" sideWeight="0.8206039" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18526466" sideWeight="0.8206039" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21589404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3178808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1286,8 +1250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/CourseList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7929515">
-          <caret line="156" column="47" selection-start-line="156" selection-start-column="47" selection-end-line="156" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.26431718">
+          <caret line="140" column="54" selection-start-line="140" selection-start-column="54" selection-end-line="140" selection-end-column="54" />
           <folding />
         </state>
       </provider>
