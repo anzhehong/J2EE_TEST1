@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - bookstore@localhost" uuid="954ce9be-86cf-4e5e-a362-4222c8ddfe1f">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>bookstore.*</schema-pattern>
+      <default-schemas>bookstore.*</default-schemas>
+    </data-source>
+    <data-source name="MySQL - CourseDB@localhost" uuid="a66fcd19-2812-411a-9168-2d3280ecdff9">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>CourseDB.*</schema-pattern>
+      <default-schemas>CourseDB.*</default-schemas>
+    </data-source>
+  </component>
+</project>
