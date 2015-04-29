@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9c1b46e-4da1-403f-ae2a-3288be6ced2d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/CourseList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/CourseList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="J2EEtest1.iws" />
@@ -178,26 +177,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaughtCoursesDAO.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TaughtCoursesDAO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DAO/TaughtCoursesDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.5962343">
               <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1430288389000" expanded="true" signature="473:500" placeholder="SELECT * FRO..TaughtCourses..." />
                 <marker date="1430288389000" expanded="true" signature="473:523" placeholder="SELECT * FRO..TaughtCourses..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseList.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/CourseList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26431718">
-              <caret line="140" column="50" selection-start-line="140" selection-start-column="50" selection-end-line="140" selection-end-column="50" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -810,7 +799,7 @@
       <workItem from="1430239218484" duration="3010000" />
       <workItem from="1430272713164" duration="12000" />
       <workItem from="1430272739389" duration="9112000" />
-      <workItem from="1430287649421" duration="2734000" />
+      <workItem from="1430287649421" duration="2772000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1430289109713</created>
@@ -830,11 +819,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430289898421</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test Commit">
+      <created>1430296745498</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1430296745499</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37395000" />
+    <option name="totallyTimeSpent" value="37433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -858,7 +853,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18526466" sideWeight="0.8206039" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18526466" sideWeight="0.8206039" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21589404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3178808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -911,7 +906,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="test Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1296,23 +1292,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/CourseList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2973568">
+          <caret line="156" column="48" selection-start-line="156" selection-start-column="48" selection-end-line="156" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DAO/TaughtCoursesDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5962343">
           <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1430288389000" expanded="true" signature="473:500" placeholder="SELECT * FRO..TaughtCourses..." />
             <marker date="1430288389000" expanded="true" signature="473:523" placeholder="SELECT * FRO..TaughtCourses..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/CourseList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26431718">
-          <caret line="140" column="50" selection-start-line="140" selection-start-column="50" selection-end-line="140" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
