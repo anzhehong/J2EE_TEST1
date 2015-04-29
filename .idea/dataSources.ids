@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - bookstore@localhost" uuid="954ce9be-86cf-4e5e-a362-4222c8ddfe1f">
+    <database-info product="MySQL" version="5.6.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <schema name="" catalog="bookstore"/>
+    <table name="Books" schema="" catalog="bookstore" type="TABLE">
+      <column name="isbn" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <column name="author_name" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="title" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="publisher_name" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="publication_year" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="binding" sqlType="VARCHAR" precision="55" scale="0" nullable="true" jdbcType="12"/>
+      <column name="source_numb" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="retail_price" sqlType="DECIMAL" precision="8" scale="2" nullable="true" jdbcType="3"/>
+      <column name="number_on_hand" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="isbn"/>
+    </table>
+    <table name="Sources" schema="" catalog="bookstore" type="TABLE">
+      <column name="source_numb" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="source_name" sqlType="VARCHAR" precision="55" scale="0" nullable="true" jdbcType="12"/>
+      <column name="source_street" sqlType="VARCHAR" precision="55" scale="0" nullable="true" jdbcType="12"/>
+      <column name="source_city" sqlType="VARCHAR" precision="55" scale="0" nullable="true" jdbcType="12"/>
+      <column name="source_state" sqlType="CHAR" precision="2" scale="0" nullable="true" jdbcType="1"/>
+      <column name="source_zip" sqlType="CHAR" precision="5" scale="0" nullable="true" jdbcType="1"/>
+      <column name="source_phone" sqlType="CHAR" precision="12" scale="0" nullable="true" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="source_numb"/>
+    </table>
+  </data-source>
+  <data-source name="MySQL - CourseDB@localhost" uuid="a66fcd19-2812-411a-9168-2d3280ecdff9">
+    <database-info product="MySQL" version="5.6.23" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <schema name="" catalog="CourseDB"/>
+    <table name="Courses" schema="" catalog="CourseDB" type="TABLE">
+      <column name="code" sqlType="VARCHAR" precision="8" scale="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="64" scale="0" nullable="true" jdbcType="12"/>
+      <column name="description" sqlType="VARCHAR" precision="640" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="code"/>
+      <exported-key name="taughtcourses_ibfk_2" table="TaughtCourses" schema="" catalog="CourseDB" columns="course"/>
+    </table>
+    <table name="TaughtCourses" schema="" catalog="CourseDB" type="TABLE">
+      <column name="tcid" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="course" sqlType="VARCHAR" precision="8" scale="0" nullable="true" jdbcType="12"/>
+      <column name="tid" sqlType="VARCHAR" precision="8" scale="0" nullable="true" jdbcType="12"/>
+      <column name="classid" sqlType="VARCHAR" precision="2" scale="0" nullable="true" jdbcType="12"/>
+      <column name="semester" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="numberOfStudents" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="tcid"/>
+      <foreign-key name="taughtcourses_ibfk_1" columns="tid" ref-table="Teachers" ref-schema="" ref-catalog="CourseDB" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="taughtcourses_ibfk_2" columns="course" ref-table="Courses" ref-schema="" ref-catalog="CourseDB" ref-columns="code" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="Teachers" schema="" catalog="CourseDB" type="TABLE">
+      <column name="id" sqlType="VARCHAR" precision="8" scale="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="title" sqlType="VARCHAR" precision="32" scale="0" nullable="true" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="64" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="taughtcourses_ibfk_1" table="TaughtCourses" schema="" catalog="CourseDB" columns="tid"/>
+    </table>
+  </data-source>
+</component>
